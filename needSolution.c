@@ -42,11 +42,12 @@ int main()
                     printf(" Second value : "); scanf("%d",&secondValue);
                     summary= firstValue / secondValue;
                 }
+        
                 else{
                     printf("Invalid character!");
                 }
 
-            printf("Sonuç : %d",summary);
+            printf("SonuÃ§ : %d",summary);
 
             printf("\n\n Clear  -  C\n Go ahead  -  G");
             printf("\n Your choose : "); scanf("%c",&selection);
